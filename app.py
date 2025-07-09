@@ -12,12 +12,12 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png
 
 if uploaded_file is not None:
     input_image = Image.open(uploaded_file)
-    st.image(input_image, caption="Original Image", use_column_width=True)
+    st.image(input_image, caption="Original Image", use_container_width=True)  # ✅ FIXED
 
     if st.button("Remove Background"):
         with st.spinner("Removing background..."):
             result = remove(input_image)
-            st.image(result, caption="Image without Background", use_column_width=True)
+            st.image(result, caption="Image without Background", use_container_width=True)  # ✅ FIXED
 
             # Convert result to bytes for download
             buffered = io.BytesIO()
