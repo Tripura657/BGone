@@ -1,6 +1,6 @@
 ## BGone - 🖼️ Background Remover App
 ## 📄 Project Description
-- BGone is a simple and user-friendly web application built using Streamlit. It lets users upload an image and automatically removes the background using the AI-powered rembg library. The app supports JPG and PNG formats and allows users to download the background-free image as a PNG. BGone is ideal for quick edits like creating profile pictures, product photos, or social media graphics without needing design skills.
+- BGone is a simple and user-friendly web application built using **Streamlit**. It lets users upload an image and automatically removes the background using the **AI-powered** ```rembg``` **library**. The app supports JPG and PNG formats and allows users to **download the background-free image as a PNG**. BGone is ideal for quick edits like creating profile pictures, product photos, or social media graphics without needing design skills.
 
 ## 🚀 Features
 - Upload image files (.jpg, .jpeg, .png)
